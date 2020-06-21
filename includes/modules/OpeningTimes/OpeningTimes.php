@@ -545,38 +545,38 @@ protected function _enqueue_debug_bundles() {
 	public function render( $attrs, $content = null, $render_slug ) {
 		return sprintf(
 			 '
-			 <div>
+  			 <div class="nemo-opening-times">
      <div class="nemo_opening_times_header">
          <img class="logo %1$s" alt="logo" src="%2$s">
          <h3>%3$s</h3>
          <p>%4$s</p>
      </div>
      <div class="day">
-         Monday: <span class="%5$s opening-hours">%6$s:%7$s - %8$s:%9$s</span>
+         Monday: <span class="%5$s opening_hours">%6$s:%7$s - %8$s:%9$s</span>
       <span class="%5$s closed">CLOSED</span>
      </div>
      <div class="day">
-         Tuesday: <span class="%10$s opening-hours">%11$s:%12$s - %13$s:%14$s</span>
+         Tuesday: <span class="%10$s opening_hours">%11$s:%12$s - %13$s:%14$s</span>
       <span class="%10$s closed">CLOSED</span>
      </div>
      <div class="day">
-         Wednesday: <span class="%15$s opening-hours">%16$s:%17$s - %18$s:%19$s</span>
+         Wednesday: <span class="%15$s opening_hours">%16$s:%17$s - %18$s:%19$s</span>
       <span class="%15$s closed">CLOSED</span>
      </div>
      <div class="day">
-         Thursday: <span class="%20$s opening-hours">%21$s:%22$s - %23$s:%24$s</span>
+         Thursday: <span class="%20$s opening_hours">%21$s:%22$s - %23$s:%24$s</span>
       <span class="%20$s closed">CLOSED</span>
      </div>
      <div class="day">
-         Friday: <span class="%25$s opening-hours">%26$s:%27$s - %28$s:%29$s</span>
+         Friday: <span class="%25$s opening_hours">%26$s:%27$s - %28$s:%29$s</span>
       <span class="%25$s closed">CLOSED</span>
      </div>
      <div class="day">
-         Saturday: <span class="%30$s opening-hours">%31$s:%32$s - %33$s:%34$s</span>
+         Saturday: <span class="%30$s opening_hours">%31$s:%32$s - %33$s:%34$s</span>
      <span class="%30$s closed">CLOSED</span>
      </div>
      <div class="day">
-         Sunday: <span class="%35$s opening-hours">%36$s:%37$s - %38$s:%39$s</span>
+         Sunday: <span class="%35$s opening_hours">%36$s:%37$s - %38$s:%39$s</span>
      <span class="%35$s closed">CLOSED</span>
      </div>
  </div>
