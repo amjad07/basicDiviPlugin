@@ -1,3 +1,3 @@
-import HelloWorld from './HelloWorld/HelloWorld';
+import OpeningTimes from './OpeningTimes/OpeningTimes';
 
-export default [HelloWorld];
+export default [OpeningTimes];

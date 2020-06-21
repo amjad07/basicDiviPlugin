@@ -1,0 +1,12 @@
+.gary_opening_times .on.closed, .gary_opening_times .off.opening_hours {
+    display: none;
+}
+
+.gary_opening_times .logo.off {
+    display: none;
+}
+
+.gary_opening_times img {
+    max-width:100px;
+    display:block;
+}
