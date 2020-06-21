@@ -63,7 +63,7 @@ protected function _enqueue_debug_bundles() {
 	          'default'         => esc_html__('Opening Times'),
 	          'toggle_slug'     => 'main_content',
 	      ),
-	      'content' => array(
+	      'nemo_content' => array(
 	          'label'           => esc_html__( 'Description', 'nemo-new-module' ),
 	          'type'            => 'tiny_mce',
 	          'option_category' => 'basic_option',
